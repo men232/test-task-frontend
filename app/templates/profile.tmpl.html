@@ -1,0 +1,26 @@
+<button class="btn btn-info profile-edit">Edit</button>
+<hr>
+<div class="row">
+	<div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<h3 style="margin-top: 0px"><%- user.userName %></h3>
+				<small><%- formatedBirthday %></small><br>
+				<small><%- user.userEmail %></small>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-8">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<dl class="dl-horizontal">
+					<dt><%- user.siteUrl %></dt>
+					<dt><%- user.userPhone %></dt>
+					<dt>Skill <%- user.userSkill %></dt>
+					<dt><%- user.userGender %></dt>
+					<dd><%- user.userAbout %></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+</div>

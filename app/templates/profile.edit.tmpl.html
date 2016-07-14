@@ -1,0 +1,75 @@
+<div class="modal-dialog modal-lg">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">Edit Profile</h4>
+		</div>
+		<div class="modal-body">
+			<div class="row">
+				<div class="col-md-6">
+					<!-- name -->
+					<div class="form-group">
+						<label>User Name</label>
+						<input class="form-control" data-field="userName" type="text" placeholder="User Name">
+					</div>
+
+					<!-- email -->
+					<div class="form-group">
+						<label>Email</label>
+						<input class="form-control" data-field="userEmail" type="email" placeholder="Email">
+					</div>
+
+					<!-- password -->
+					<div class="form-group">
+						<label>Password</label>
+						<input class="form-control" data-field="password" type="password" placeholder="Password">
+					</div>
+
+					<!-- confirm password -->
+					<div class="form-group">
+						<label>Confirm</label>
+						<input class="form-control" data-field="confirmPassword" type="password" placeholder="Confirm Password">
+					</div>
+
+					<!-- site -->
+					<div class="form-group">
+						<label>Site</label>
+						<input class="form-control" data-field="siteUrl" type="text" placeholder="Site URL">
+					</div>
+
+					<!-- phone -->
+					<div class="form-group">
+						<label>Phone</label>
+						<input class="form-control" data-field="userPhone" type="text" placeholder="Phone Number">
+					</div>
+
+				</div>
+				<div class="col-md-6">
+					<!-- birthday -->
+					<div class="form-group">
+						<label>Birthday</label>
+						<input class="form-control" data-field="userBirthday" type="date" placeholder="Birthday">
+					</div>
+
+					<!-- gender -->
+					<div class="form-group">
+						<label>Gender</label>
+						<select data-field="userGender" class="form-control">
+							<option value="0">Male</option>
+							<option value="1">Famale</option>
+						</select>
+					</div>
+
+					<!-- about -->
+					<div class="form-group">
+						<label>About:</label>
+						<textarea data-field="userAbout" class="form-control" rows="5"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-info save">Save</button>
+		</div>
+	</div>
+</div>
